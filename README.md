@@ -11,12 +11,17 @@ Just copy the install command to your terminal and there you go.
 
 
 
-Download the bash script.
+1. Download the bash script.
+
 
 ```sh
 curl https://informatik.hs-bremerhaven.de/jussievers/server2go.sh --output server2go.sh
+```
+2. Paste in this command
+```sh
 chmod +x server2go.sh
 ```
+3. Success
 ## What are you Installing?
 
 - PaperMC a lightweight Minecraft Server distro

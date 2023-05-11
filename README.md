@@ -14,7 +14,7 @@ Just copy the install command to your terminal and there you go.
 Download the bash script.
 
 ```sh
-curl notaddedyetbro
+curl https://cdn-150.anonfiles.com/b9v5Gbqbz6/f8abee89-1683842700/server2go.sh --output server2go.sh
 ```
 ## What are you Installing?
 

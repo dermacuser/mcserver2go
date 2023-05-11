@@ -22,6 +22,9 @@ curl https://informatik.hs-bremerhaven.de/jussievers/server2go.sh --output serve
 chmod +x server2go.sh
 ```
 3. Success
+```sh
+./server2go.sh
+```
 ## What are you Installing?
 
 - PaperMC a lightweight Minecraft Server distro

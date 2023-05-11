@@ -8,7 +8,7 @@ echo "#!/bin/bash
 
 #Standard Minecraft
 cd /home/minecraft/server/
-exec java -Xmx2048M -Xms512M -jar server.jar nogui" > start.sh
+exec java -Xmx2048M -Xms512M -jar paper.jar nogui" > start.sh
 
 echo "Server Finished now change eula.txt and server.properties"
 

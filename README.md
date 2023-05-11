@@ -15,6 +15,7 @@ Download the bash script.
 
 ```sh
 curl https://informatik.hs-bremerhaven.de/jussievers/server2go.sh --output server2go.sh
+chmod +x server2go.sh
 ```
 ## What are you Installing?
 

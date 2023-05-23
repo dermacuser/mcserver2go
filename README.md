@@ -32,4 +32,4 @@ chmod +x server2go.sh
 
 ## Who is this for?
 
-Quite literally everybody that hates to install Minecraft Serverclient on their Linux Server
+Quite literally everybody that hates to go through the annoying process of installing the Minecraft Serverclient on their Linux-based Server

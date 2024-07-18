@@ -15,13 +15,18 @@ Just copy the install command to your terminal and there you go.
 
 
 ```sh
-curl https://informatik.hs-bremerhaven.de/jussievers/server2go.sh --output server2go.sh
+curl https://github.com/dermacuser/mcserver2go/archive/refs/tags/PaperMC.tar.gz --output server2go.zip
 ```
-2. Paste in this command
+2. Unzip the file you just downloaded
+```
+tar -xvzf community_images.tar.gz
+```
+
+3. Paste in this command
 ```sh
 chmod +x server2go.sh
 ```
-3. Success
+4. Success
 ```sh
 ./server2go.sh
 ```

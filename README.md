@@ -15,11 +15,11 @@ Just copy the install command to your terminal and there you go.
 
 
 ```sh
-curl https://github.com/dermacuser/mcserver2go/archive/refs/tags/PaperMC.tar.gz --output server2go.zip
+curl https://github.com/dermacuser/mcserver2go/archive/refs/tags/PaperMC.tar.gz --output server2go.tar.gz
 ```
 2. Unzip the file you just downloaded
 ```
-tar -xvzf community_images.tar.gz
+tar -xvzf server2go.tar.gz
 ```
 
 3. Paste in this command

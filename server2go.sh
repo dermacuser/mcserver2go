@@ -6,7 +6,7 @@ sudo apt remove openjdk-21-jdk openjdk-21-jre -y
 sudo apt install openjdk-21-jdk openjdk-21-jre -y
 mkdir minecraftserver
 cd minecraftserver
-curl https://fill-data.papermc.io/v1/objects/0555a0b0468a5198d8fb1a16e1f9e95c81a917a2dc8f2e09867b4044742f6401/paper-26.1.2-72. jar -- output paper. jar
+curl https://fill-data.papermc.io/v1/objects/0555a0b0468a5198d8fb1a16e1f9e95c81a917a2dc8f2e09867b4044742f6401/paper-26.1.2-72.jar --output paper.jar
 echo "#!/bin/bash
 
 #Standard Minecraft

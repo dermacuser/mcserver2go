@@ -20,6 +20,6 @@ echo "eula=true" > eula.txt
 #DEBUG ONLY !!!
 
 #echo "Server Finished now change eula. txt and server.properties"
-echo "Server Starting ...
+echo "Server Starting ..."
 wait 2
 bash start.sh

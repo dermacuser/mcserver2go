@@ -22,4 +22,4 @@ echo "eula=true" > eula.txt
 #echo "Server Finished now change eula. txt and server.properties"
 echo "Server Starting ...
 wait 2
-bash start. sh
+bash start.sh

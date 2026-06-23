@@ -20,7 +20,7 @@ sudo apt install curl -y
 
 
 ```sh
-curl https://raw.githubusercontent.com/dermacuser/mcserver2go/refs/heads/main/server2go.sh?token=GHSAT0AAAAAAEAYLLFDPSFKXXKCW7RG3L6I2R2ZUOA --output server2go.sh | bash server2go.sh 
+curl https://raw.githubusercontent.com/dermacuser/mcserver2go/refs/heads/main/server2go.sh?token=GHSAT0AAAAAAEAYLLFDPSFKXXKCW7RG3L6I2R2ZUOA --output server2go.sh && bash server2go.sh 
 ```
 
 ## What are you Installing?

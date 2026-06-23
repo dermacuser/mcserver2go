@@ -2,6 +2,7 @@
 ## _Speed run the experience_
 
 Just copy the install command to your terminal and there you go.
+(ONLY DEBIAN BASED DISTROS)
 
 ## Features
 
@@ -9,27 +10,19 @@ Just copy the install command to your terminal and there you go.
 
 ## Installation
 
+For the Installation you need the 'curl' package installed on your system.
+If you have not installed curl please do that first.
+(```sudo apt install curl -y```)
+
 
 
 1. Download the bash script.
 
 
 ```sh
-curl https://github.com/dermacuser/mcserver2go/archive/refs/tags/PaperMC.tar.gz --output server2go.tar.gz
-```
-2. Unzip the file you just downloaded
-```
-tar -xvzf server2go.tar.gz
+curl https://raw.githubusercontent.com/dermacuser/mcserver2go/refs/heads/main/server2go.sh?token=GHSAT0AAAAAAEAYLLFDPSFKXXKCW7RG3L6I2R2ZUOA --output server2go.sh | sh 
 ```
 
-3. Paste in this command
-```sh
-chmod +x server2go.sh
-```
-4. Success
-```sh
-./server2go.sh
-```
 ## What are you Installing?
 
 - PaperMC a lightweight Minecraft Server distro

@@ -1,8 +1,8 @@
 #! /bin/bash
 sudo apt update -y && sudo apt upgrade -y
 #TEST FOR DEBUG
-sudo apt remove openjdk-25-jdk openjdk-25-jre -y
-sudo apt remove openjdk-21-jdk openjdk-21-jre -y
+#sudo apt remove openjdk-25-jdk openjdk-25-jre -y
+#sudo apt remove openjdk-21-jdk openjdk-21-jre -y
 
 sudo apt install openjdk-25-jdk openjdk-25-jre -y
 mkdir minecraftserver
@@ -15,11 +15,10 @@ cd /home/minecraft/server/
 exec java -Xmx2048M -Xms512M -jar paper.jar nogui" > start.sh
 
 #DEBUG ONLY !!!
-echo "DISABLE THIS OPTION BEFORE RELEASE !!! "
-echo "eula=true" > eula.txt
+#echo "DISABLE THIS OPTION BEFORE RELEASE !!! "
+#echo "eula=true" > eula.txt
 #DEBUG ONLY !!!
 
-#echo "Server Finished now change eula. txt and server.properties"
+echo "Server Finished now change eula. txt and server.properties"
 echo "Server Starting ..."
-wait 2
 bash start.sh

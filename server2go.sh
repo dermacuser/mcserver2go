@@ -1,6 +1,7 @@
 #! /bin/bash
 sudo apt update -y && sudo apt upgrade -y
 #TEST FOR DEBUG
+sudo apt remove openjdk-25-jdk openjdk-25-jre -y
 sudo apt remove openjdk-21-jdk openjdk-21-jre -y
 
 sudo apt install openjdk-25-jdk openjdk-25-jre -y

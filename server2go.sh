@@ -1,21 +1,24 @@
 #!/bin/bash
-apt update -y && apt upgrade -y
-apt install vim -y
-apt install openjdk-17-jdk openjdk-17-jre -y
-apt update -y && apt upgrade -y
+sudo apt update -y && sudo apt upgrade -y
+#TEST FOR DEBUG
+sudo apt remove openjdk-21-jdk openjdk-21-jre -y
+
+sudo apt install openjdk-21-jdk openjdk-21-jre -y
 mkdir minecraftserver
 cd minecraftserver
-curl https://api.papermc.io/v2/projects/paper/versions/1.19.4/builds/527/downloads/paper-1.19.4-527.jar --output paper.jar
+curl https://fill-data.papermc.io/v1/objects/0555a0b0468a5198d8fb1a16e1f9e95c81a917a2dc8f2e09867b4044742f6401/paper-26.1.2-72. jar -- output paper. jar
 echo "#!/bin/bash
 
 #Standard Minecraft
-exec java -Xmx2048M -Xms512M -jar paper.jar nogui" > start.sh
-echo "#eula automatically generated through script^
-eula=true" > eula.txt
-chmod +x paper.jar
-echo -e "\033[0;96mInstall Finished"
-echo -e "\033[0;96mYour Minceraft-Server should be up and running in 5 seconds. \nEnjoy!"
-sleep 5s
-echo -e "\033[0m"
+cd /home/minecraft/server/
+exec java -Xmx2048M -Xms512M -jar paper. jar nogui" > start.sh
+
+#DEBUG ONLY !!!
+echo "DISABLE THIS OPTION BEFORE RELEASE !!! "
+echo "eula=true" > eula.txt
+#DEBUG ONLY !!!
+
+#echo "Server Finished now change eula. txt and server.properties"
+echo "Server Starting ... "
+wait 2
 bash start.sh
-#Scripted by DerMacUser on GitHub

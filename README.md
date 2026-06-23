@@ -2,6 +2,7 @@
 ## _Speed run the experience_
 
 Just copy the install command to your terminal and there you go.
+
 (ONLY DEBIAN BASED DISTROS)
 
 ## Features

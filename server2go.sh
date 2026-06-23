@@ -11,7 +11,7 @@ echo "#!/bin/bash
 
 #Standard Minecraft
 cd /home/minecraft/server/
-exec java -Xmx2048M -Xms512M -jar paper. jar nogui" > start.sh
+exec java -Xmx2048M -Xms512M -jar paper.jar nogui" > start.sh
 
 #DEBUG ONLY !!!
 echo "DISABLE THIS OPTION BEFORE RELEASE !!! "
